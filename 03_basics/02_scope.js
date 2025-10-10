@@ -30,3 +30,19 @@ let mess = function printMessage1(message) {
 // so while storing function in a variable Don't call it before declaration
 // this is releated to HOISTING, something that we will learn in future
 // Not, declaring varibale without var, let, const inside function will make it global
+
+// HOISTING
+// It’s all because of hoisting — how JavaScript moves declarations to the top of their scope before execution.
+
+
+var x = 10;
+function test() {
+    // var x;       internally js move the declaration to the to like this line.
+    console.log(x);
+    var x = 5;
+    console.log(x);
+    
+}
+
+test();
+
