@@ -29,3 +29,4 @@ let mess = function printMessage1(message) {
 // the line no 21 will give error 
 // so while storing function in a variable Don't call it before declaration
 // this is releated to HOISTING, something that we will learn in future
+// Not, declaring varibale without var, let, const inside function will make it global
